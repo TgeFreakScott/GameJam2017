@@ -1,3 +1,4 @@
-﻿  main.cpp
-  GameJam2017.vcxproj -> C:\Users\DiJitOL\Desktop\GameJam2017\Debug\GameJam2017.exe
-  GameJam2017.vcxproj -> C:\Users\DiJitOL\Desktop\GameJam2017\Debug\GameJam2017.pdb (Partial PDB)
+﻿  levelSeven.cpp
+c:\users\gamer\desktop\gamejam2017\levelseven.cpp(15): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameJam2017.vcxproj -> C:\Users\Gamer\Desktop\GameJam2017\Debug\GameJam2017.exe
+  GameJam2017.vcxproj -> C:\Users\Gamer\Desktop\GameJam2017\Debug\GameJam2017.pdb (Partial PDB)

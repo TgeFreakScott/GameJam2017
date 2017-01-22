@@ -19,7 +19,31 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="levelEight.cpp" />
+    <ClCompile Include="levelFive.cpp" />
+    <ClCompile Include="LevelFour.cpp" />
+    <ClCompile Include="levelNine.cpp" />
+    <ClCompile Include="levelOne.cpp" />
+    <ClCompile Include="levels.cpp" />
+    <ClCompile Include="levelSeven.cpp" />
+    <ClCompile Include="levelSix.cpp" />
+    <ClCompile Include="levelTen.cpp" />
+    <ClCompile Include="levelThree.cpp" />
+    <ClCompile Include="levelTwo.cpp" />
     <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\levelEight.h" />
+    <ClInclude Include="include\levelFive.h" />
+    <ClInclude Include="include\levelFour.h" />
+    <ClInclude Include="include\levelNine.h" />
+    <ClInclude Include="include\levelOne.h" />
+    <ClInclude Include="include\levels.h" />
+    <ClInclude Include="include\levelSeven.h" />
+    <ClInclude Include="include\levelSix.h" />
+    <ClInclude Include="include\levelTen.h" />
+    <ClInclude Include="include\levelThree.h" />
+    <ClInclude Include="include\levelTwo.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C64DE893-2293-468B-855D-DAF502E2DAED}</ProjectGuid>
@@ -92,7 +116,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SFML_SDK)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SFML_SDK)\include;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SFML_SDK)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -103,7 +127,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SFML_SDK)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SFML_SDK)\include;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SFML_SDK)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -116,7 +140,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SFML_SDK)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SFML_SDK)\include;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -131,7 +155,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SFML_SDK)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SFML_SDK)\include;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

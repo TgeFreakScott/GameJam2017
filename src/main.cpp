@@ -1,9 +1,5 @@
-//////////////////////////////////////////////////////////// 
-// Headers for SFML projects
-// include correct library file for release and debug versions
-// include opengl library files
-// include iostream for console window output
-//////////////////////////////////////////////////////////// 
+//Game: Colour-wave
+//Team: David Scott ,DJ O'Leary, John O'Meara, David O'Gorman
 
 #ifdef _DEBUG 
 #pragma comment(lib,"sfml-graphics-d.lib") 
@@ -18,17 +14,20 @@
 #pragma comment(lib,"sfml-window.lib") 
 #pragma comment(lib,"sfml-network.lib") 
 #endif 
-#pragma comment(lib,"opengl32.lib") 
-#pragma comment(lib,"glu32.lib") 
+//#pragma comment(lib,"opengl32.lib") 
+//#pragma comment(lib,"glu32.lib") 
 
-#include "SFML/Graphics.hpp" 
-#include "SFML/OpenGL.hpp" 
 
-#include <iostream>
+//#include <Windows.h>
 
+//#include "SFML/Graphics.hpp" 
+//#include "SFML/OpenGL.hpp" 
+//#include <iostream> 
+#include "levels.h"
 
 int main()
 {
-
-	return 0;
+	levels levels;
+	levels.run();
+	return 1;
 }
